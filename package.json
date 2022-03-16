@@ -1,0 +1,15 @@
+{
+  "name": "petinsuranceapi",
+  "version": "1.0.0",
+  "description": "API to calculate cost of pet insurance",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mila Koscialkowska",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1"
+  }
+}

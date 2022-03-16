@@ -1,0 +1,12 @@
+[
+    { "_id" : "a1b2c3d4", "type": "dog", "breed" : "dalmatian", "risk" : 5 },
+    { "_id" : "b2c3d4e5", "type": "dog", "breed" : "labrador", "risk" : 7 },
+    { "_id" : "c3d4e5f6", "type": "dog", "breed" : "daschund", "risk" : 8 },
+    { "_id" : "d4e5f6g7", "type": "dog", "breed" : "kelpie", "risk" : 4 },
+    { "_id" : "e5f6g7h8", "type": "dog", "breed" : "german shepherd", "risk" : 3 },
+    { "_id" : "e5f6g7h9", "type": "dog", "breed" : "shepherd", "risk" : 3 },
+    { "_id" : "f6g7h8i9", "type": "cat", "breed" : "ragdoll", "risk" : 5 },
+    { "_id" : "g7h8i9j0", "type": "cat", "breed" : "sphynx", "risk" : 7 },
+    { "_id" : "h8i9j0k1", "type": "cat", "breed" : "bengal", "risk" : 4 },
+    { "_id" : "i9j0k1l2", "type": "ferret", "breed" : "sable", "risk" : 10 }
+]
