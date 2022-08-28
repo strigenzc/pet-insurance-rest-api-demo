@@ -11,7 +11,10 @@ app.use(bodyParser.json());
 // routes is an instance of the express router
 // We use it to define our API endpoints
 // The router will be added as a middleware and will take control of routing requests to the correct endpoint
-const routes = express.Router();
+const routes = express.Router();ß
+app.get('/_id/:type/breed/:risk', (req, res) => {
+  res.send(req.params)
+  })
 
 // This will help us connect to the database
 const dbo = require('../db/db');
@@ -30,3 +33,8 @@ routes.route('/health').get(async function(_req, res) {
 });
 
 module.exports = routes;
+
+//trying the route unsure where it goes in code
+//app.get('/_id/:type/breed/:risk', (req, res) => {
+ // res.send(req.params)
+// })
